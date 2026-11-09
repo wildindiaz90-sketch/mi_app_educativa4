@@ -1,0 +1,3 @@
+Calendario Académico RD - mockup
+Abre index.html en tu navegador; el menú lateral enlaza las 5 pantallas.
+Los datos son de ejemplo.

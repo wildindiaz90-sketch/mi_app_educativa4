@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Listado de actividades · Calendario Académico RD</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"><style>*{box-sizing:border-box}body{margin:0;font:14px/1.4 Inter,system-ui,sans-serif;background:#F4F6FA;color:#0F172A}
+.app{display:flex;min-height:800px}.sb{width:216px;flex:none;background:#14213D;padding:20px 12px;display:flex;flex-direction:column;gap:4px}
+.sb h1{margin:0 8px 16px;font-size:16px;line-height:1.2;color:#fff}.sb a{display:flex;align-items:center;min-height:44px;padding:0 12px;border-radius:8px;color:#CBD5E1;text-decoration:none}
+.sb a.on{background:#fff;color:#14213D;font-weight:600}.sb p{margin:auto 8px 0;font-size:12px;color:#CBD5E1}
+.mn{flex:1;min-width:0;padding:24px 28px;display:flex;flex-direction:column;gap:16px}
+.hd{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.hd h2{margin:0;font-size:22px}.mu{color:#475569;font-size:13px}.ac{display:flex;gap:8px;flex-wrap:wrap}
+button{min-height:44px;padding:0 16px;border-radius:8px;font:600 14px Inter,sans-serif;cursor:pointer;background:#fff;color:#14213D;border:1px solid #94A3B8}button.p{background:#14213D;color:#fff;border-color:#14213D}
+.cd{background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:16px}.cd h3{margin:0 0 10px;font-size:14px}
+.c{display:inline-flex;align-items:center;gap:6px;padding:2px 8px;border-radius:6px;font:600 12px Inter,sans-serif;font-style:normal}.c::before{content:"";width:8px;height:8px;background:currentColor;flex:none}
+.f{background:#FFE4E6;color:#9F1239}.f::before{border-radius:50%}.m{background:#DBEAFE;color:#1E3A8A}.t{background:#D1FAE5;color:#065F46}.t::before{transform:rotate(45deg)}.u{background:#FEF3C7;color:#92400E}.u::before{clip-path:polygon(50% 0,100% 100%,0 100%)}
+.lg{display:flex;gap:8px;flex-wrap:wrap}.two{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start}
+.fm{display:grid;grid-template-columns:1fr 1fr;gap:14px}.fm .w{grid-column:1/-1}label,legend{display:block;font-weight:600;font-size:13px;margin-bottom:4px}fieldset{border:0;padding:0;margin:0}
+input[type=text],input[type=date],select,textarea{width:100%;min-height:44px;padding:0 12px;border:1px solid #64748B;border-radius:8px;font:14px Inter,sans-serif;background:#fff;color:#0F172A}textarea{padding:10px 12px;min-height:88px}
+.sg{display:flex;gap:8px;flex-wrap:wrap}.sg label{display:flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border:1px solid #94A3B8;border-radius:8px;font-weight:400;margin:0;background:#fff}
+.ov{overflow-x:auto}.tb{width:100%;border-collapse:collapse;min-width:760px}.tb th{text-align:left;font-size:12px;color:#475569;padding:8px;border-bottom:1px solid #E2E8F0}.tb td{padding:10px 8px;border-bottom:1px solid #F1F5F9}
+.s{padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid #64748B;color:#334155;background:#fff}.s.b{background:#E2E8F0}.s.d{background:#14213D;color:#fff;border-color:#14213D}
+.g{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:1px;background:#E2E8F0;border:1px solid #E2E8F0;border-radius:10px;overflow:hidden}
+.g>div{background:#fff;padding:6px;min-height:92px;display:flex;flex-direction:column;align-items:flex-start;gap:3px;font-size:12px}.g .h{min-height:0;background:#F1F5F9;font-weight:600;color:#475569}.g .o{background:#F8FAFC;color:#475569}
+.g .c{font-size:11px}.g .y b{background:#14213D;color:#fff;border-radius:50%;width:24px;height:24px;display:grid;place-items:center}
+.col{display:flex;flex-direction:column;gap:8px}.k{border:1px solid #E2E8F0;border-radius:8px;padding:8px;background:#fff;font-size:13px}
+.wk{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;align-items:start}.wk>div{background:#fff;border:1px solid #E2E8F0;border-radius:10px;padding:8px;min-height:380px;display:flex;flex-direction:column;gap:8px}.wk .we{background:#F8FAFC}
+@media(max-width:900px){.app{flex-direction:column}.sb{width:auto;flex-direction:row;overflow-x:auto;padding:8px}.sb h1,.sb p{display:none}.sb a{white-space:nowrap}.two,.fm,.wk{grid-template-columns:1fr}.wk>div{min-height:0}.mn{padding:16px}}</style></head><body>
+<div class="app"><nav class="sb" aria-label="Principal"><h1>Calendario<br>Académico RD</h1><a href="index.html">Panel mensual</a><a href="semanal.html">Vista semanal</a><a href="listado.html" class="on" aria-current="page">Actividades</a><a href="formulario.html">Nueva actividad</a><a href="eventos.html">Eventos MINERD</a><p>Prof. [Nombre] · Modo docente</p></nav><main class="mn"><header class="hd"><div><h2>Actividades</h2><span class="mu">29 actividades · 2026–2027</span></div><div class="ac"><button class="p">+ Nueva actividad</button></div></header>
+<section class="cd"><div class="fm" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));align-items:end">
+<div><label for="a1">Área curricular</label><select id="a1"><option>Todas</option></select></div><div><label for="a2">Tipo</label><select id="a2"><option>Todos</option></select></div><div><label for="a3">Estado</label><select id="a3"><option>Todos</option></select></div><div><label for="a4">Período</label><select id="a4"><option>2.º período</option><option>1.er período</option><option>3.er período</option></select></div>
+<div><label for="a5">Desde</label><input id="a5" type="date" value="2026-11-01"></div><div><label for="a6">Hasta</label><input id="a6" type="date" value="2026-11-30"></div><button>Limpiar filtros</button></div></section>
+<section class="cd ov"><table class="tb"><thead><tr><th>Título</th><th>Área</th><th>Grado</th><th>Tipo</th><th>Entrega</th><th>Estado</th><th></th></tr></thead><tbody>
+<tr><td><b>Ecuaciones lineales</b></td><td>Matemática</td><td>3.°B</td><td>Tarea</td><td>9 nov <i class="c u">2 d</i></td><td><span class="s b">En curso</span></td><td><button>Editar</button></td></tr>
+<tr><td><b>Feria de ciencias</b></td><td>Ciencias de la Naturaleza</td><td>4.°A</td><td>Proyecto</td><td>10 nov <i class="c u">3 d</i></td><td><span class="s b">En curso</span></td><td><button>Editar</button></td></tr>
+<tr><td><b>Exposición oral</b></td><td>Lengua Española</td><td>2.°C</td><td>Exposición</td><td>12 nov</td><td><span class="s">Pendiente</span></td><td><button>Editar</button></td></tr>
+<tr><td><b>Prueba de fracciones</b></td><td>Matemática</td><td>3.°B</td><td>Prueba</td><td>13 nov</td><td><span class="s">Pendiente</span></td><td><button>Editar</button></td></tr>
+<tr><td><b>Práctica de laboratorio</b></td><td>Ciencias de la Naturaleza</td><td>4.°A</td><td>Práctica</td><td>18 nov</td><td><span class="s">Pendiente</span></td><td><button>Editar</button></td></tr>
+<tr><td><b>Mapa de la Hispaniola</b></td><td>Ciencias Sociales</td><td>2.°C</td><td>Tarea</td><td>30 oct</td><td><span class="s d">Evaluada</span></td><td><button>Editar</button></td></tr></tbody></table>
+<div class="hd" style="margin-top:12px"><span class="mu">Mostrando 6 de 29</span><div class="ac"><button>Anterior</button><button class="p">1</button><button>2</button><button>Siguiente</button></div></div></section></main></div>
+</body></html>
